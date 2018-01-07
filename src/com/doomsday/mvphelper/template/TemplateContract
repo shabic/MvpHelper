@@ -1,0 +1,14 @@
+package $packagename.contract;
+
+/**
+ * Created by $username on $date
+ */
+
+public interface $classnameContract {
+
+    interface View {
+    }
+
+    interface Presenter {
+    }
+}

@@ -1,0 +1,11 @@
+package $packagename.presenter;
+
+import com.doomsday.base.ui.BasePresenter;
+import $packagename.contract.$classnameContract;
+
+/**
+ * Created by $username on $date
+ */
+
+public class $classnamePresenter extends BasePresenter<$classnameContract.View> implements $classnameContract.Presenter {
+}

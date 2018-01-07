@@ -1,0 +1,21 @@
+package $packagename;
+
+import com.doomsday.base.annotation.ContentView;
+import com.doomsday.base.ui.BaseFragment;
+import $package.R;
+import $imp_packagename.contract.$classnameContract;
+import $imp_packagename.presenter.$classnamePresenter;
+
+/**
+ * Created by $username on $date.
+ */
+
+@ContentView(R.layout.fragment_$layouname)
+public class $classnameFragment extends BaseFragment<$classnamePresenter> implements $classnameContract.View {
+
+    @Override
+    public void initView() {
+
+    }
+
+}

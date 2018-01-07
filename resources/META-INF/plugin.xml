@@ -1,0 +1,42 @@
+<idea-plugin>
+    <id>com.doomsday.mvphelper</id>
+    <name>MvpHelper</name>
+    <version>1.0</version>
+    <vendor email="1107655006@qq.com" url="https://github.com/DoomsDayXx">渣渣</vendor>
+
+    <description><![CDATA[
+      mvp辅助插件，自动生成contract,presenter,activity/fragment,layout<br>
+      自动实现各种继承关系，快速进入业务开发.<br>
+      <em>most HTML tags may be used</em>
+    ]]></description>
+
+    <change-notes><![CDATA[
+      Add change notes here.<br>
+      <em>most HTML tags may be used</em>
+    ]]>
+    </change-notes>
+
+    <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/build_number_ranges.html for description -->
+    <idea-version since-build="145.0"/>
+
+    <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html
+         on how to target different products -->
+    <!-- uncomment to enable plugin in all products
+    <depends>com.intellij.modules.lang</depends>
+    -->
+
+    <extensions defaultExtensionNs="com.intellij">
+        <!-- Add your extensions here -->
+    </extensions>
+
+    <actions>
+        <group id="MvpHelper" text="MvpHelper" description="MvpHelper">
+            <add-to-group group-id="NewGroup" anchor="first"/>
+            <action id="MvpHelper.generate"
+                    class="com.doomsday.mvphelper.action.MVPSupportAction"
+                    text="MvpHelper" description="MVPSupport">
+            </action>
+        </group>
+    </actions>
+
+</idea-plugin>

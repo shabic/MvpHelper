@@ -1,0 +1,21 @@
+package $packagename;
+
+import com.doomsday.base.annotation.ContentView;
+import com.doomsday.base.ui.BaseActivity;
+import $package.R;
+import $imp_packagename.contract.$classnameContract;
+import $imp_packagename.presenter.$classnamePresenter;
+
+/**
+ * Created by $username on $date
+ */
+
+@ContentView(R.layout.activity_$layouname)
+public class $classnameActivity extends BaseActivity<$classnamePresenter> implements $classnameContract.View {
+
+    @Override
+    public void initView() {
+
+    }
+
+}
